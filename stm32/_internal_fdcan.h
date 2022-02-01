@@ -5,7 +5,7 @@
 #ifndef CANARD_STM32_FDCAN_H
 #define CANARD_STM32_FDCAN_H
 
-#include <stm32h743xx.h> // TODO: substitute include for independent variable and macro declaration
+#include <stm32h7xx.h> // TODO: substitute include for independent variable and macro declaration
 
 typedef FDCAN_GlobalTypeDef FdCANType;
 

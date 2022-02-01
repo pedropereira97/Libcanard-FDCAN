@@ -23,8 +23,6 @@
 
 #if UAVCAN_STM32_FREERTOS
 #include <cmsis_os2.h>
-#elif UAVCAN_STM32_BAREMETAL
-#include <stm32h7xx.h>
 #endif
 
 #if UAVCAN_STM32_FREERTOS
